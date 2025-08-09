@@ -1,13 +1,13 @@
 
 import RegisterForm from "@/components/modules/Auth/RegisterForm";
 import { GalleryVerticalEnd } from "lucide-react";
-
+import bgImage from "../assets/iamges/bg.jpg"
 export default function Register() {
   return (
     <div className="grid min-h-svh lg:grid-cols-2">
       <div className="bg-muted relative hidden lg:block">
         <img
-          src="/placeholder.svg"
+          src={bgImage}
           alt="Image"
           className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
         />

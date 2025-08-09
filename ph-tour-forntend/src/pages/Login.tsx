@@ -1,6 +1,7 @@
 
 import LoginForm from "@/components/modules/Auth/LoginForm"
 import { GalleryVerticalEnd } from "lucide-react"
+import bgImage from "../assets/iamges/bg.jpg"
 
 
 export default function Login() {
@@ -23,7 +24,7 @@ export default function Login() {
       </div>
       <div className="bg-muted relative hidden lg:block">
         <img
-          src="/placeholder.svg"
+          src={bgImage}
           alt="Image"
           className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
         />
